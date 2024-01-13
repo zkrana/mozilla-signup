@@ -1,0 +1,103 @@
+.form-controller {
+  width: 100%;
+}
+.form-controller input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(158, 158, 158, 0.671);
+  padding: 1rem;
+  font-size: 16px;
+  --tw-text-opacity: 1;
+  color: rgb(94 94 114 / 1);
+}
+.mt {
+  margin-top: 1.25rem;
+}
+.btn-primary {
+  appearance: button;
+  background-color: rgb(0, 95, 222);
+  background-image: none;
+  border-bottom-color: rgb(2, 80, 187);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(2, 80, 187);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(2, 80, 187);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(2, 80, 187);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: Metropolis, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-feature-settings: normal;
+  font-size: 16px;
+  font-variation-settings: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  tab-size: 4;
+  text-align: center;
+  text-transform: none;
+  transition-duration: 0.15s;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  transition: background-color 0.5s ease-in;
+}
+
+.btn-primary:hover {
+  background-color: rgb(2, 68, 155);
+}
+
+@media screen and (max-width: 480px) {
+  .btn-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form-controller input {
+    padding: 0.75rem;
+  }
+}
+
+.btn-primary svg {
+  height: 55px;
+}
+.active-btn {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-message {
+  font-size: 14px;
+  text-align: left;
+  padding-top: 2px;
+  color: tomato;
+  font-weight: 400;
+}

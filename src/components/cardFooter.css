@@ -1,0 +1,24 @@
+.card-footer {
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 15px;
+  padding-top: 1.65rem;
+  margin-bottom: 0.55rem;
+}
+.card-footer:last-child {
+  padding-top: 0.25rem;
+}
+.card-footer a {
+  color: black;
+}
+.card-footer a:focus {
+  --tw-text-opacity: 1;
+  color: rgb(21 20 26 / var(--tw-text-opacity));
+
+  --tw-shadow: 0 0 0 1px #6d6d6e, 0 0 0 3px #e7e7e7;
+  --tw-shadow-colored: 0 0 0 1px var(--tw-shadow-color),
+    0 0 0 3px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}

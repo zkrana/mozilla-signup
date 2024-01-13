@@ -1,0 +1,108 @@
+.signup-h-details {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  padding-top: 0.65rem;
+  margin-bottom: 0.765rem;
+}
+
+.signUp-form {
+  margin-top: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sync-options {
+  text-align: left;
+}
+.sync-options a {
+  display: block;
+  font-size: 13px;
+  text-align: left;
+  margin-top: -10px;
+  color: rgb(0 96 223);
+}
+.sync-d {
+  margin-top: 1.75rem;
+}
+.sync-d span {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sync-d ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 1.65rem;
+}
+.sync-d ul li {
+  width: calc(50% - 12px);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+}
+.form-controller.pass-hints {
+  position: relative;
+}
+.hints-d {
+  position: absolute;
+  right: -234px;
+  top: 0px;
+  z-index: 10;
+  width: 220px;
+  border-radius: 0.125rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(231 231 231 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: start;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.hints-d::before {
+  content: "";
+  width: 29px;
+  height: 20px;
+  position: absolute;
+  left: -6px;
+  top: 11px;
+  position: absolute;
+  height: 0.75rem;
+  width: 0.75rem;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-color: rgb(231 231 231 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-top-width: 0;
+  transform: rotate(45deg);
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hints-d span {
+  font-size: 13px;
+}
+.hints-d ul {
+  margin-left: 20px;
+}

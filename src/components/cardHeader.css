@@ -1,0 +1,13 @@
+.card-header {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.card-h-details {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  padding-top: 0.65rem;
+  margin-bottom: 2.25rem;
+}
