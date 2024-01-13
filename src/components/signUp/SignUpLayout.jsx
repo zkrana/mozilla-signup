@@ -9,7 +9,7 @@ const SignUpLayout = () => {
   return (
     <>
       <Logo />
-      <div className="card">
+      <div className="card signup_wrapper">
         <CardHeader />
         <SignUpForm />
         <CardFooter />

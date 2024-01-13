@@ -106,3 +106,14 @@
 .hints-d ul {
   margin-left: 20px;
 }
+
+@media screen and (max-width: 767px) {
+  .signup_wrapper {
+    margin-top: 2.75rem;
+  }
+}
+@media screen and (max-height: 767px) {
+  .signup_wrapper {
+    margin-top: 15.75rem;
+  }
+}
