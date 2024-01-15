@@ -17,7 +17,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div>
+            <>
               <Logo />
               <div className="content-wrapper">
                 <div className="card">
@@ -26,7 +26,7 @@ function App() {
                   <CardFooter />
                 </div>
               </div>
-            </div>
+            </>
           }
         />
 

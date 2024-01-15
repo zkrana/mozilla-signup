@@ -7,10 +7,12 @@ function SignUpForm() {
   const [isPasswordFocused, setIsPasswordFocused] = useState(false);
 
   const handlePasswordFocus = () => {
+    console.log("Password focused");
     setIsPasswordFocused(true);
   };
 
   const handlePasswordBlur = () => {
+    console.log("Password Blurred");
     setIsPasswordFocused(false);
   };
   return (
@@ -28,26 +30,23 @@ function SignUpForm() {
           <div className="hints-d">
             <span>Password requirements</span>
             <ul>
-              <li id="password-too-short" class="password-strength-fail">
-                <span class="ltr:pl-2 rtl:pr-2">At least 8 characters</span>
+              <li>
+                <span>At least 8 characters</span>
               </li>
-              <li id="password-same-as-email" class="password-strength-unmet">
-                <span class="ltr:pl-2 rtl:pr-2">Not your email address</span>
+              <li>
+                <span>Not your email address</span>
               </li>
-              <li id="password-too-common" class="password-strength-unmet">
-                <span class="ltr:pl-2 rtl:pr-2">
-                  Not a commonly used password
-                </span>
+              <li>
+                <span>Not a commonly used password</span>
               </li>
 
-              <li class="mt-2 hidden desktop:flex before:w-4 before:content-lock">
-                <span class="ltr:pl-2 rtl:pr-2">
+              <li>
+                <span>
                   Stay safe — don’t reuse passwords. See more tips to{" "}
                   <a
                     href="https://support.mozilla.org/kb/password-strength"
                     target="_blank"
-                    tabindex="-1"
-                    class="link-grey"
+                    tabIndex="-1"
                     rel="noopener noreferrer"
                   >
                     create strong passwords
