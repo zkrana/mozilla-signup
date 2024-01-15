@@ -5,7 +5,7 @@ function Logo() {
   return (
     <div className="Logo">
       <a
-        href="https://www.mozilla.org/about/?utm_source=firefox-accounts&utm_medium=Referral"
+        href="/"
         className="logo"
       >
         <img

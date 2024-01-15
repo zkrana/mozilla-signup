@@ -5,6 +5,8 @@ import "./signUp.css";
 
 function SignUpForm() {
   const [isPasswordFocused, setIsPasswordFocused] = useState(false);
+  const [signSubmit, setSignSubmit] = useState(false);
+  const navigate = useNavigate();
 
   const handlePasswordFocus = () => {
     console.log("Password focused");
@@ -15,8 +17,16 @@ function SignUpForm() {
     console.log("Password Blurred");
     setIsPasswordFocused(false);
   };
+
+  const handleSignUp = (e) => {
+    e.preventDefault();
+    setSignSubmit();
+    setTimeout(() => {
+      navigate("/confirm_signup_code");
+    }, 1000);
+  };
   return (
-    <form className="signUp-form">
+    <form className="signUp-form" onSubmit={handleSignUp}>
       <div className="form-controller pass-hints">
         <input
           type="password"

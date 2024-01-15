@@ -8,6 +8,8 @@ import Form from "./components/Form";
 import SignUp from "./components/signUp/SignUp";
 import Logo from "./components/Logo";
 import SignUpLayout from "./components/signUp/SignUpLayout";
+import SignUpCodeLayout from "./components/confirm_signup_code/SignUpCodeLayout";
+import ConfirmCode from "./components/confirm_signup_code/ConfirmCode";
 
 function App() {
   return (
@@ -36,6 +38,15 @@ function App() {
             <SignUpLayout>
               <SignUp />
             </SignUpLayout>
+          }
+        />
+
+        <Route
+          path="/confirm_signup_code/"
+          element={
+            <SignUpCodeLayout>
+              <ConfirmCode />
+            </SignUpCodeLayout>
           }
         />
       </Routes>
