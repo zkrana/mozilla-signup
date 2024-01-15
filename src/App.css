@@ -14,12 +14,13 @@ body {
 
 #root {
   background-color: #fbfbfe;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden;
+  overflow-x: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
 }
 .content-wrapper {
   width: 100%;
